@@ -1,0 +1,157 @@
+.slider{	
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+img{
+	max-width: 100%;
+	 height: auto;
+}
+ #post img{
+ 	border-radius: 5px;
+
+ }
+
+ #lista {
+    counter-reset: li; 
+    list-style: none; 
+    *list-style: decimal; 
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+#lista ol {
+    margin: 0 0 0 2em; 
+}
+
+#lista li{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background:#9ACD32;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;   
+}
+
+#lista li:hover{
+    background: #eee;
+}
+
+#lista li:hover:before{
+    transform: rotate(360deg);  
+}
+
+#lista li:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #87ceeb;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;0
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
+
+.post{
+	border-radius: 5px;
+	height: 100px;
+	width: 140px;
+	margin:auto;
+}
+
+#btnn{
+	
+    margin:auto;
+	background-color: #ff6501;
+	border-color: rgb(157,195,77);
+    font-size: 32px;
+    padding:.3em; 
+font-family: 'Montserrat', sans-serif;
+color:#fff;
+}
+
+footer{
+	background-color: #0A2A22;
+	color:#fff;
+}
+
+#log img{
+	height: 80px;
+	width: 150px;
+}
+
+.ico{
+	height: 70px;
+	width: 70px;
+}
+
+p, li, a{
+font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5{
+	font-family: 'Anton', sans-serif;
+}
+
+#sli2 h4{
+	color:#0A2A22;
+}
+#sli2 h1{
+	color:#0A2A22;
+}
+#sli2 {
+	color:#0A2A22;
+}
+
+.active{
+	font-size: 20;
+}
+
+.tit{
+	background-color: #0f71b0;
+	color:orange;
+	text-shadow:  6px 6px 5px black;
+}
+.tit2{
+background-color: #0f71b0;
+}
+
+span{
+	font-weight: bold;
+}
+
+.titla{
+	text-shadow: 
+               6px 6px 5px #EE9A00,
+               9px 9px 5px #00f;
+}
+.card{
+	font-family: 'Montserrat', sans-serif;
+}
+#navi{
+ color: #868e96;
+ border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  background:transparent;
+}
+.BTN2 a{
+color:#fff;
+}
+.btn{
+    margin:auto;
+}
