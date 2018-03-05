@@ -1,13 +1,13 @@
-$("#reg").submit(function(event){
+$("#boletin").submit(function(event){
     event.preventDefault(); //alamcena los datos sin  refresacar el sitio
     enviar();
 });
 
 function enviar(){
-    var datos=$("#reg").serialize();
+    var datos=$("#boletin").serialize();
     $.ajax({
         type: "post",
-        url: "php/registro.php",
+        url: "php/mail.php",
         data: datos,
         success: function(texto){
             if(texto=="Exito"){
